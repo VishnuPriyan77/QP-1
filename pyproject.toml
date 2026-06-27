@@ -1,0 +1,18 @@
+[project]
+name = "cross-asset-latent-alignment"
+version = "0.1.0"
+description = "Educational PyTorch research prototype for cross-asset latent alignment and statistical arbitrage."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+]
+
+[tool.setuptools]
+packages = ["src"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
